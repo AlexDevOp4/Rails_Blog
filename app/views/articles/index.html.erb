@@ -1,5 +1,5 @@
 <div class="container">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
 		<div class="container-fluid">
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav">
@@ -17,7 +17,7 @@
 <div class="container index-article-cards">
 	<div class="row row-cols-1 row-cols-md-2 g-4">
 		<% @articles.each do |article| %>
-		<div class="col">
+		<div class="col ">
 			<div class="card text-dark bg-light mb-3" style="max-width: 18rem">
 				<div class="card-header"><%= link_to article.title, article %></div>
 				<div class="card-body">
